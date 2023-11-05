@@ -1,8 +1,12 @@
+.semaforo{
+    display: grid;
+    place-items: center;
+}
+
 .trafficTop{
     height: 80px;
     width: 15px;
     background: black;
-    display: inline-block;
     margin: 0;
 }
 
@@ -22,12 +26,17 @@
     margin: auto;
     
 }
-.red-light{
+.red{
     background: red;
+    
 }
-.yellow-light{
+.yellow{
     background: yellow;
 }
-.green-light{
+.green{
     background: green;
+}
+
+.glow{
+    box-shadow: 0 0 20px rgb(221, 255, 68);
 }
